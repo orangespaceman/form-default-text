@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Form default text</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <form method="get" action="">
+            <fieldset>
+                <legend>Default text fixer</legend>
+                <label for="textfield">Type some text:</label>
+                <input type="text" class="text" name="textfield" id="textfield" value="default text" />
+            </fieldset>
+        </form>
+
+        <script src="script.js"></script>
+        <script>
+            // set autofill on the input field with an id of 'textfield'
+            formUtil.autoFill("textfield");
+        </script>
+        <script src="http://thegingerbloke.github.io/lab-badge/lab-badge.min.js"></script>
+    </body>
+</html>
